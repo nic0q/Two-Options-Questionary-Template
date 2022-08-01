@@ -1,10 +1,10 @@
-export function Option({ key, n }) {
+export function Option({ n }) {
   return (
-    <div className="w-32 border-8">
-      <a href="https://stackoverflow.com/questions/8660149/need-to-make-a-clickable-div-button">
-        <h6>{n}</h6>
-        <img src={n} alt="option" />
-      </a>
+    <div className="flex items-stretch justify-center p-0 w-96 border-2 ">
+      <div>
+        <img src={n} alt="option " />
+      </div>
+      
     </div>
   )
 }
